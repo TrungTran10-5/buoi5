@@ -1,0 +1,28 @@
+﻿Tình huống 1: Chỉ áp dụng dự án mới
+B1: Tạo 1 kho tại máy cá nhân (git init)-chỉ chạy 1 lần (dự án mới)
+
+B2 : dua code vao kho /từng file(git add  index.html style.css)
+   +add tất cả files (git add .)
+-Tại bước này để kiểm tra file có file mới hay cũ, sửa đổi hay xóa dùng (git status)
+
+B3: Định danh cho kho (mục đích của đoạn code,(ít khi để thời gian)
+git commit -m "..."
+-Tại bước này có thể kiểm tra bao nhiêu commit xuất hiện (git log)
+
+B4: Kết nối giữa local (máy tính cá nhân) với github ( đám mấy)-chỉ chạy 1 lần(dự án mới) 
+VD: git remote add origin https://github.com/TrungTran10-5/buoi5.git ( thường tren git hub)
+
+B5:Đưa code từ local (máy tính cá nhân) tới kho github trên website
+VD:git push -u origin master (master là nhánh)
+trên website là main vì v vô visual phải đổi thành tên nhánh(ở góc dưới bên trái trong visual)
+
+
+
+Tình huống 2 : đã tồn tại trên web
+
+B2: git add
+
+B3 : Git commit
+kiểm tra bao nhiêu commit ( git log)
+
+B5:git push 
